@@ -1,6 +1,6 @@
 {
-  "version": "1.0.1",
-  "min_supported_version": "1.0.2",
+  "version": "1.0.3",
+  "min_supported_version": "1.0.0",
   "mandatory": false,
   "title": "GoodbyeDPI Pro MAX - Yenilikler ve İyileştirmeler",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/goodbyedpi-turkey.zip",
