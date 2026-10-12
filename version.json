@@ -1,14 +1,14 @@
 {
-  "version": "1.0.3",
-  "min_supported_version": "1.0.0",
+  "version": "0.2",
+  "min_supported_version": "0.1",
   "mandatory": false,
-  "title": "GoodbyeDPI Pro MAX - Yenilikler ve İyileştirmeler",
+  "title": "GoodbyeDPI Pro MAX - İlk Sürüm",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/goodbyedpi-turkey.zip",
   "changelog": [
-    "Program adı 'GoodbyeDPI Pro MAX' olarak güncellendi ve ultra hafif çekirdeğe optimize edildi.",
-    "Sıfır gecikme (0 ms / 0 lag) ve rekabetçi oyunlar için FPS düşüşlerini önleyen mikro-uyku motoru eklendi.",
-    "Türk Telekom, Superonline, Vodafone ve TurkNet için cerrahi paket ayrıştırma (-e 1 --frag-by-sni) optimize edildi.",
-    "Discord ses kanalları kesintisiz bağlantı ve DE-CIX Frankfurt omurga senkronizasyonu geliştirildi.",
-    "Windows 11 26H2 / 25H2 çekirdek bellek bütünlüğü (HVCI) tam uyumluluğu doğrulandı."
+    "İlk resmi ve kararlı sürüm yayınlandı.",
+    "Genel bağlantı ve internet erişim kararlılığı iyileştirildi.",
+    "Farklı internet servis sağlayıcıları için bağlantı ayarları optimize edildi.",
+    "Discord ve sesli iletişim uygulamalarındaki bağlantı sorunları giderildi.",
+    "Windows 10 ve Windows 11 sistemleriyle tam uyumluluk sağlandı."
   ]
 }
