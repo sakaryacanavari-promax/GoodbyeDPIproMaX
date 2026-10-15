@@ -2,10 +2,10 @@
   "version": "0.2",
   "min_supported_version": "0.1",
   "mandatory": false,
-  "title": "GoodbyeDPI Pro MAX - İlk Sürüm",
+  "title": "GoodbyeDPI Pro MAX - Bug Fix",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
   "changelog": [
-    "İlk resmi ve kararlı sürüm yayınlandı.",
+    "Çeşitli hatalar giderildi.",
     "Genel bağlantı ve internet erişim kararlılığı iyileştirildi.",
     "Farklı internet servis sağlayıcıları için bağlantı ayarları optimize edildi.",
     "Discord ve sesli iletişim uygulamalarındaki bağlantı sorunları giderildi.",
