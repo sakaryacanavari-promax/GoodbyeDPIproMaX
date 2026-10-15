@@ -2,11 +2,12 @@
   "version": "0.2",
   "min_supported_version": "0.1",
   "mandatory": false,
-  "title": "GoodbyeDPI Pro MAX - Genel İyileştirmeler",
+  "title": "GoodbyeDPI Pro MAX - İyileştirmeler, Kararlılık ve Performans Güncellemesi",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
   "changelog": [
     "Çeşitli hatalar giderildi.",
     "YENİLİK: Oyun-Dostu Akıllı Ayrıştırma motoru eklendi (CS2, Valorant, LoL, FiveM, GTA V, Roblox, Fortnite, Apex Legends ve 25'ten fazla oyunu anında tanıyan sessiz arka plan motoru).",
     "Güncelleme ekranı ve indirme altyapısı iyileştirildi.",
+    "Arayüz sadeleştirildi; gereksiz öğeler ve bildirimler kaldırılarak iyileştirildi.",
   ]
 }
