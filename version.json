@@ -1,12 +1,13 @@
  {
-  "version": "0.3.2",
+  "version": "0.3.3",
   "min_supported_version": "0.1",
   "mandatory": false,
-  "title": "GoodbyeDPI Pro MAX - Bug fix",
+  "title": "GoodbyeDPI Pro MAX - Genel iyileştirmeler",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
   "changelog": [
     "Türk Telekom profili seçiliyken discord açılmama hatası düzeltildi.",
     "Güvenlik Duvarı'nın programı virüs olarak algılama hatası giderildi.",
     "Roblox açılmama sorunu düzeltildi. Tekrar roblox'u ekleyerek deneyebilirsin.",
+    "Güncelleme ekranı yenilendi ve iyileştirildi.",
   ]
 }
