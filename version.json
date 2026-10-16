@@ -1,8 +1,8 @@
  {
-  "version": "0.3.3",
+  "version": "0.4",
   "min_supported_version": "0.1",
   "mandatory": false,
-  "title": "GoodbyeDPI Pro MAX - Genel iyileştirmeler",
+  "title": "GoodbyeDPI Pro MAX ",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
   "changelog": [
     "Türk Telekom profili seçiliyken discord açılmama hatası düzeltildi.",
