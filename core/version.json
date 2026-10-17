@@ -1,10 +1,9 @@
 {
   "version": "0.4.4",
-  "min_supported_version": "0.1",
+  "min_supported_version": "0.4",
   "mandatory": false,
-  "title": "GoodbyeDPI Pro MAX v0.4.4 - Güvenilirlik ve Güvenlik Güncellemesi",
+  "title": "GoodbyeDPI Pro MAX v0.4.4 - Yeni Özellikler",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
-  "sha256": "11522A0BE21B64F22F5992F8604C5075B72E26AD2D6747D6E45A0B23F1D584A0",
   "changelog": [
     "Sorun giderme asistanı eklendi.",
     "Kurulum sihirbazı(yardımcı) eklendi.",
