@@ -1,15 +1,16 @@
 {
-  "version": "0.4.4",
+  "version": "0.4.5",
   "min_supported_version": "0.4",
   "mandatory": false,
-  "title": "GoodbyeDPI Pro MAX v0.4.4 - Yeni Özellikler",
+  "title": "GoodbyeDPI Pro MAX - Özellik Güncellemesi",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
-  "sha256": "11522A0BE21B64F22F5992F8604C5075B72E26AD2D6747D6E45A0B23F1D584A0",
+  "sha256": "BD8C6F835F0224B28F287FD8994349B48AD8C648BE0922E88A08D0A1574B3A4D",
   "changelog": [
-    "Sorun giderme asistanı eklendi.",
-    "Kurulum sihirbazı(yardımcı) eklendi.",
-    "Hız testi eklendi.",
-    "Akıllı DNS onarımı eklendi.",
+    "Arayüze yeni renkler eklendi. Üst sekmede bulabilirsiniz.",
+    "Otomatik en iyi profili bulma sistemi eklendi.",
+    "Akıllı hat koruyucusu eklendi. Bağlantı koptuğunda otomatik en iyi profile geçiş yapar. ",
+    "Ping sistemi iyileştirildi.",
+    "Oyun/site ekle paneli iyileştirildi.",
     "Bazı tespit edilen hatalar ve buglar giderildi."
   ]
 }
