@@ -1,13 +1,11 @@
 {
-  "version": "0.4.6",
+  "version": "0.4.7",
   "min_supported_version": "0.4",
   "mandatory": false,
   "title": "GoodbyeDPI Pro MAX v0.4.6",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
-  "sha256": "F6861104C80B35EFF24622B2D343C9EF794B48258EC3831DE24D1A8E734FB5DE",
+  "sha256": "B576692F733BAC600DAB58FBD6D7EDB86C954E9C4EC0EF368D5898EF8FBB7E31",
   "changelog": [
-    "Otomatik dns seçme sistemi eklendi.",
-    "Yeni dns adresleri eklendi.",
     "Tespit edilen hata/buglar giderildi."
   ]
 }
