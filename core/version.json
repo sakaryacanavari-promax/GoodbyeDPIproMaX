@@ -6,6 +6,9 @@
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
   "sha256": "7E7E646200253DEFC6478FA91707D23304BCF44CA11B51A9E5DF9BAA88CDDB27",
   "changelog": [
-    "Tespit edilen hata/buglar giderildi."
+    "Akıllı discord ses algılayıcısı eklendi.",
+    "GoodbyeDPI altyapısına ek olarak tercih edebileceğiniz yeni motor(Zapret) eklendi."
+    "Akıllı discord ses algılayıcısı eklendi.",
+    "Tespit edilen hatalar giderildi.",
   ]
 }
