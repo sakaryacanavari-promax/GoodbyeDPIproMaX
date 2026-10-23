@@ -1,14 +1,14 @@
 {
-  "version": "0.4.10",
+  "version": "0.4.11",
   "min_supported_version": "0.4",
   "mandatory": true,
   "title": "GoodbyeDPI Pro MAX",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
-  "sha256": "A19C974715321A305CCA8767FE7C15FB7E35240390EBF8AC48B9BEBED077AEA4",
+  "sha256": "1C3A7E5EA5826DCC6E63F8A0A6318C7AE4D545551103F05EE48730A30F8D537A",
   "changelog": [
     "Profil seçicisi, ISS listesi, tema menüsü, tepsi seçenekleri ve güncelleme penceresinin okunabilirliği iyileştirildi.",
     "DNS sağlayıcı listesindeki satır ve ölçüm geçişleri yumuşatıldı; yarım kalan DNS taramaları eksik ölçümlerle otomatik seçim yapmıyor."
-    "Koruma motoru beklenmedik biçimde kapanırsa arayüzü bekletmeden sınırlı kurtarma denemeleri yapılıyor.",
+    "Yeni dns'ler eklendi.",
     "Bazı hatalar giderildi."
   ]
 }
