@@ -1,12 +1,12 @@
 {
-  "version": "0.4.12",
-  "min_supported_version": "0.4.12",
+  "version": "0.4.13",
+  "min_supported_version": "0.4.13",
   "mandatory": true,
   "title": "GoodbyeDPI Pro MAX",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
-  "sha256": "49DC1094536A27068BFCC8F9AA43364B3AAAF623F03002704D6D3841B8A004E4",
+  "sha256": "05882D6A815784098407132EF75823DFFEEE7E4D9A3766BFA3630B73C9B65A75",
   "changelog": [
-    "Valorant ve Cs2'deyken bildirim çıkması düzeltildi.",
+    "Bazı iyileştirmeler yapıldı ve hatalar giderildi.",
 
   ]
 }
