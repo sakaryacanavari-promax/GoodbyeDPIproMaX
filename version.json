@@ -1,12 +1,12 @@
 {
-  "version": "0.4.13",
-  "min_supported_version": "0.4.13",
+  "version": "0.4.14",
+  "min_supported_version": "0.4.14",
   "mandatory": true,
   "title": "GoodbyeDPI Pro MAX",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
-  "sha256": "05882D6A815784098407132EF75823DFFEEE7E4D9A3766BFA3630B73C9B65A75",
+  "sha256": "25BD873370EE48FDA53018F5546A20057D82F0A1980F8F160590FE66DDCAD2E7",
   "changelog": [
-    "Bazı iyileştirmeler yapıldı ve hatalar giderildi.",
+    "Program altyapısında ve motorunda iyileştirmeler yapıldı ve hatalar giderildi.",
   ]
 }
 
