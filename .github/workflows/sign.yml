@@ -9,32 +9,28 @@ jobs:
   sign-project:
     runs-on: windows-latest
     steps:
-      - name: Depoyu İndir
+      - name: Depoyu Indir
         uses: actions/checkout@v4
 
       - name: ZIP Dosyasini Ac
         run: Expand-Archive -Path "GoodbyeDPI-ProMAX.zip" -DestinationPath "extracted" -Force
 
-      - name: Imzalanacak EXE Dosyasini Hazirla
-        id: upload-step
-        uses: actions/upload-artifact@v4
-        with:
-          name: unsigned-exe
-          path: extracted/GoodbyeDPI_ProMAX.exe
-
-      - name: SignPath ile Kod Imzala
-        uses: signpath/github-action-submit-signing-request@v1
-        with:
-          api-token: ${{ secrets.SIGNPATH_API_TOKEN }}
-          organization-id: '21688624-20d6-4e6c-b145-be3bbcc28432'
-          project-slug: 'goodbyedpi-promax'
-          signing-policy-slug: 'test-signing'
-          github-artifact-id: ${{ steps.upload-step.outputs.artifact-id }}
-          wait-for-completion: true
-          output-artifact-directory: 'signed-output'
+      - name: SignPath ile Kod Imzala (PowerShell)
+        shell: pwsh
+        run: |
+          Install-Module -Name SignPath -Force -Scope CurrentUser
+          New-Item -ItemType Directory -Force -Path "signed-output"
+          Submit-SigningRequest `
+            -InputArtifactPath "extracted/GoodbyeDPI_ProMAX.exe" `
+            -ApiToken "${{ secrets.SIGNPATH_API_TOKEN }}" `
+            -OrganizationId "21688624-20d6-4e6c-b145-be3bbcc28432" `
+            -ProjectSlug "goodbyedpi-promax" `
+            -SigningPolicySlug "test-signing" `
+            -OutputArtifactPath "signed-output/GoodbyeDPI_ProMAX.exe" `
+            -WaitForCompletion
 
       - name: Imzali Dosyayi Kaydet
         uses: actions/upload-artifact@v4
         with:
           name: Imzali-GoodbyeDPI-ProMAX
-          path: signed-output/
+          path: signed-output/GoodbyeDPI_ProMAX.exe
