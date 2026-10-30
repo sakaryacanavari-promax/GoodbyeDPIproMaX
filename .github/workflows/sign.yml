@@ -1,7 +1,7 @@
 name: Build and Sign
 
 on:
-  workflow_dispatch: # Actions sekmesinden tek tıkla elle çalıştırmanızı sağlar
+  workflow_dispatch:
   push:
     branches: [ main ]
 
@@ -9,19 +9,20 @@ jobs:
   sign-project:
     runs-on: windows-latest
     steps:
-      - name: Depoyu İndir (Checkout)
+      - name: Depoyu İndir
         uses: actions/checkout@v4
 
-      # Not: Eğer kaynak koddan (.py, .cs, .cpp) derleme yapıyorsanız derleme komutunuz buraya gelir.
-      # Şimdilik deponuzdaki dosyayı paketleyip SignPath'e gönderen yapı:
-      - name: İmzalanacak Dosyayı Artifact Olarak Kaydet
+      - name: ZIP Dosyasini Ac
+        run: Expand-Archive -Path "GoodbyeDPI-ProMAX.zip" -DestinationPath "extracted" -Force
+
+      - name: Imzalanacak EXE Dosyasini Hazirla
         id: upload-step
         uses: actions/upload-artifact@v4
         with:
-          name: unsigned-artifact
-          path: core/*.exe # İmzalanacak .exe dosyanız neredeyse tam yolunu yazın
+          name: unsigned-exe
+          path: extracted/GoodbyeDPI_ProMAX.exe
 
-      - name: SignPath ile Kod İmzala
+      - name: SignPath ile Kod Imzala
         uses: signpath/github-action-submit-signing-request@v1
         with:
           api-token: ${{ secrets.SIGNPATH_API_TOKEN }}
@@ -32,8 +33,8 @@ jobs:
           wait-for-completion: true
           output-artifact-directory: 'signed-output'
 
-      - name: İmzalanmış Dosyayı Kaydet
+      - name: Imzali Dosyayi Kaydet
         uses: actions/upload-artifact@v4
         with:
-          name: signed-release
+          name: Imzali-GoodbyeDPI-ProMAX
           path: signed-output/
