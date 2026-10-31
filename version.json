@@ -1,12 +1,15 @@
 {
-  "version": "0.4.15",
+  "version": "0.4.16",
   "min_supported_version": "0.4.14",
   "mandatory": false,
-  "title": "GoodbyeDPI Pro MAX",
+  "title": "GoodbyeDPI Pro MAX - Bu sürümde bazı sorunlarını giderdik, arayüzü daha okunaklı hale getirdik ve bağlantı kararlılığını artırdık.",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
-  "sha256": "36B786F0F2DED899F57F3FC91E72E971D50785A233C169FB54B241C7EBCF0852",
+  "sha256": "C88E05A40E7E7B996B6F9924EE803D8728AA7D3D3A71B3FC73FDA29F3E27DD2F",
   "changelog": [
-    "Performans iyileştirmeleri yapıldı ve bazı hatalar giderildi.",
+    "DNS menüsündeki ping değerlerinin anlık olarak fırlayıp düşmesi ve liste satırlarının sürekli yer değiştirmesi düzeltildi.",
+    "Görev çubuğundaki simgeye sağ tıkladığınızda açılan menünün yazı tipi, boyutu ve Türkçe karakter netliği Windows 11 tasarımına uygun şekilde daha okunaklı hale getirildi.",
+    "Türk Telekom kullananlar için Discord ses odalarındaki kopmalar ve web bağlantı kararlılığı güçlendirildi.",
+    "Performans iyileştirmeleri yapıldı ve bazı hatalar giderildi.",  
   ]
 }
 
