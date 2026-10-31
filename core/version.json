@@ -2,7 +2,7 @@
   "version": "0.4.16",
   "min_supported_version": "0.4.14",
   "mandatory": false,
-  "title": "GoodbyeDPI Pro MAX - Bu sürümde bazı sorunlarını giderdik, arayüzü daha okunaklı hale getirdik ve bağlantı kararlılığını artırdık.",
+  "title": "GoodbyeDPI Pro MAX - Bu sürümde bazı sorunlarını giderdik, sağ tık menüsü arayüzü daha okunaklı hale getirdik ve bağlantı kararlılığını artırdık.",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
   "sha256": "C88E05A40E7E7B996B6F9924EE803D8728AA7D3D3A71B3FC73FDA29F3E27DD2F",
   "changelog": [
