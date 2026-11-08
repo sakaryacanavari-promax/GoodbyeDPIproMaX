@@ -1,14 +1,15 @@
 {
-  "version": "0.4.16",
-  "min_supported_version": "0.4.14",
-  "mandatory": false,
-  "title": "GoodbyeDPI Pro MAX - Bu sürümde bazı sorunlarını giderdik, sağ tık menüsü arayüzünü daha okunaklı hale getirdik ve bağlantı kararlılığını artırdık.",
+  "version": "0.5.0",
+  "min_supported_version": "0.5.0",
+  "mandatory": true,
+  "title": "GoodbyeDPI Pro MAX - Büyük güncelleme",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
-  "sha256": "0B29FA45ABBEF35443BA88E875274F8EB23F3EC82E9DCF3DC88D2276185C7DA1",
+  "sha256": "00C443F83545DCF9843A5EDAE6056062F897DC124AD0BD665EF62AD849644835",
   "changelog": [
-    "DNS menüsündeki ping değerlerinin anlık olarak fırlayıp düşmesi ve liste satırlarının sürekli yer değiştirmesi düzeltildi.",
-    "Görev çubuğundaki simgeye sağ tıkladığınızda açılan menünün yazı tipi, boyutu ve Türkçe karakter netliği Windows 11 tasarımına uygun şekilde daha okunaklı hale getirildi.",
-    "Türk Telekom kullananlar için Discord ses odalarındaki kopmalar ve web bağlantı kararlılığı güçlendirildi.",
-    "Performans iyileştirmeleri yapıldı ve bazı hatalar giderildi."
+    "Tüm temalar soluk tonlardan arındırılarak çok daha doygun ve canlı renklere kavuşturuldu. Tema seçim menüsü yuvarlatılmış köşeler ve 3 boyutlu renk ikonlarıyla tasarıma uygun olarak baştan tasarlandı. Ayrıca Oyun Modu kartı, onay kutuları, Otomatik rozetleri ve Siyah temadaki profil numarasının görünmeme sorunu giderilerek tüm arayüz seçili temayla tam uyumlu hale getirildi.",
+    "Yeni Animasyon Motoru (V2): Tüm butonlar, anahtarlar, indirme çubuğu ve pencere açılışları, efektler pürüzsüz geçişlerle yenilendi.",
+    "Akıllı Güncelleme Ekranı: Arka planda yeni bir sürüm bulunduğunda, artık küçük bildirim butonunu aramanıza gerek yok. Uygulamayı sistem tepsisinden açtığınızda veya pencereyi büyüttüğünüzde güncelleme ekranı doğrudan karşınıza gelir.",
+    "Ana butonlar ile Profil ve DNS seçim menülerinin fare (hover) geçişleri çok daha doğal ve yumuşak hale getirildi. Pencere açılış geçişleri hızlandırıldı ve sistem tepsisi simgesine art arda tıklandığında üst üste pencere açılmasını önleyen koruma eklendi.",
+    "Oyun Modu eklendi. Oyun oynarken bildirimleri ve arka plan kontrollerini durdurarak oyununuzun bölünmesini engeller."
   ]
 }
