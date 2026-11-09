@@ -1,10 +1,10 @@
 {
-  "version": "0.5.0",
+  "version": "0.5.1",
   "min_supported_version": "0.4.15",
   "mandatory": true,
   "title": "GoodbyeDPI Pro MAX - Büyük güncelleme",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
-  "sha256": "00C443F83545DCF9843A5EDAE6056062F897DC124AD0BD665EF62AD849644835",
+  "sha256": "91182677441423D391B30EAED7F22B786FD4715C205B7D7C4AA3572AE1388552",
   "changelog": [
     "Tüm temalar soluk tonlardan arındırılarak çok daha doygun ve canlı renklere kavuşturuldu. Tema seçim menüsü yuvarlatılmış köşeler ve 3 boyutlu renk ikonlarıyla tasarıma uygun olarak baştan tasarlandı. Ayrıca Oyun Modu kartı, onay kutuları, Otomatik rozetleri ve Siyah temadaki profil numarasının görünmeme sorunu giderilerek tüm arayüz seçili temayla tam uyumlu hale getirildi.",
     "Yeni Animasyon Motoru (V2): Tüm butonlar, anahtarlar, indirme çubuğu ve pencere açılışları, efektler pürüzsüz geçişlerle yenilendi.",
