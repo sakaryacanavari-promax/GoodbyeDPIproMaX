@@ -1,7 +1,7 @@
 {
   "version": "0.5.2",
   "min_supported_version": "0.5.2",
-  "mandatory": true,
+  "mandatory": false,
   "title": "GoodbyeDPI Pro MAX",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
   "sha256": "AE192E13E6EE13DA2C9D4B05B6C779E4C1F97E1037EDB21ADD9F1DE73AA5C2CD",
