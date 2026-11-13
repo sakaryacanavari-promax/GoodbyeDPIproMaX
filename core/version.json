@@ -1,11 +1,17 @@
 {
-  "version": "0.5.2",
-  "min_supported_version": "0.5.2",
+  "version": "0.5.3",
+  "min_supported_version": "0.5.3",
   "mandatory": false,
-  "title": "GoodbyeDPI Pro MAX",
+  "title": "GoodbyeDPI Pro MAX - Çeşitli iyileştirmeler ve hata gidermeleri",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
-  "sha256": "AE192E13E6EE13DA2C9D4B05B6C779E4C1F97E1037EDB21ADD9F1DE73AA5C2CD",
+  "sha256": "F18108185B91B0D572814DB6CA3EAD6E3EEEDFCFF2ACDCEBB6F9E33305B23857",
   "changelog": [
-    "Bazı hatalar giderildi.",
+    "Sesli görüşmelerdeki paket algılama ve veri işleme kapasitesi artırılarak sesten atma sorunu giderildi; aktif görüşme sırasında arka plan DNS, güvenlik duvarı ve önbellek işlemleri duraklatılarak ve DNS değişiklikleri koruma motoru yeniden başlatılmadan anında uygulanarak kesintisiz konuşma deneyimi sağlandı.",
+    "Türk Telekom ve benzeri kısıtlamalarda otomatik geçiş mekanizmasının kilitlenmesine yol açan hata giderilip IPv6 ve çok parçalı veri takibi güçlendirildi; internet varken Discord'a erişilemediğinde Otomatik modun alternatif DNS çözücülerini canlı test edip aktif görüşmeyi bozmadan devreye alması sağlandı.",
+    "Geliştirilmiş Akıllı Koruma: Yerleşik koruma çekirdeği beklenmedik şekilde durduğunda sürücü sağlığını kontrol edip otomatik yeniden başlatma özelliği eklendi; kesinti müdahale süresi ~3 dakikadan 18–20 saniyeye düşürüldü ve iki profil arasında sıkışma döngüsü kaldırılarak yüksek başarı oranlı en fazla 3 profilin sırayla test edilmesi (başarısız olanların 20 dakika bekletilmesi) sağlandı.",
+    "Tüm profillerin ortak Discord Avrupa ses sunucuları üzerinden test edilmesi, eski tarama kayıtlarının yenilenmesi ve Türksat Kablonet gibi İSS bloklarının doğru tanınmasıyla yanıltıcı ping farkları giderildi; akıllı tarama süresi ~4,3 saniyeden ~1,5 saniyeye düşürülürken geçmiş başarı oranlarına göre en kararlı profilin otomatik seçilmesi ve menüde canlı gecikme ile Sorunlu etiketlerinin gösterilmesi sağlandı.",
+    "Klasör yolunda Türkçe karakter (İ, Ş, Ğ vb.) bulunduğunda oluşan dosya yükleme hataları ile uyku modu sonrası kilitlenen WinDivert sürücü sorunları otomatik onarımla giderildi; hatalı sürücü uyarıları kaldırılarak tanılama raporuna kurtarma istatistikleri ve net sürücü durumu bilgileri eklendi.",
+    "DNS seçim menüsündeki teknik etiket rozetleri (PORT 9953, PORT 443, DENEY) ile kullanım dışı kalan Adana DNS kaldırıldı; Discord ve sesli sohbet uyumluluğu doğrulanan Gcore DNS, NextDNS ve DNS4EU (IPv4/IPv6 destekli) sade isimleriyle listeye eklenerek canlı gecikmeye göre otomatik sıralanacak şekilde düzenlendi. Ve dns kısmında çeşitli iyileştirmeler yapıldı.",
+    "Çeşitli hatalar giderildi.",
   ]
 }
