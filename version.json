@@ -9,7 +9,7 @@
     "Programın arka planda otomatik izin ve sertifika ekleme işlemleri kaldırıldı; bu nedenle çıkan hatalı virüs uyarıları artık görünmüyor.",
     "Tarayıcıdan erişilebildiği halde Discord masaüstü uygulamasının açılış ekranında takılı kalması düzeltildi. Masaüstü uygulamaları da artık tarayıcılar gibi sorunsuz bağlanıyor.",
     "Ağır internet engellemeleri için Mod 5 eklendi. Yerleşik modların (Mod 1–5) tamamı yetersiz kalırsa, uygulama otomatik olarak yedek GoodbyeDPI motorunu devreye sokarak bağlantıyı kurtarıyor.",
-    "Program yeniden başlatıldığında veya mod değiştirildiğinde ağ sürücüsünün (WinDivert) arka planda takılı kalma sorunu giderildi.", 
-    "Not: Uygulama ticari sertifikayla imzalı olmadığı için ilk açılışta Windows Tanınmayan yayıncı uyarısı verebilir. Ek bilgi → Yine de çalıştır diyerek veya Windows Güvenliği'nden klasöre izin vererek sorunsuz kullanabilirsiniz.", 
+    "Program yeniden başlatıldığında veya mod değiştirildiğinde ağ sürücüsünün (WinDivert) arka planda takılı kalma sorunu giderildi.",
+    "Not: Uygulama ticari sertifikayla imzalı olmadığı için ilk açılışta Windows Tanınmayan yayıncı uyarısı verebilir. Ek bilgi → Yine de çalıştır diyerek veya Windows Güvenliği'nden klasöre izin vererek sorunsuz kullanabilirsiniz."
   ]
 }
