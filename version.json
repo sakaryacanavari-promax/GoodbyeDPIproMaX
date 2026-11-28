@@ -12,8 +12,8 @@
     "Daha Güçlü Bağlantı Motoru: Ağır kısıtlama uygulayan internet sağlayıcıları ve paylaşımlı IP (CGNAT) kullanan ağlar için yeni bağlantı yöntemleri ekledik. Standart modların işe yaramadığı durumlarda sistem otomatik olarak yedek motoru devreye alır.",
     "Hesap Güvenliği ve Çevrimdışı Kullanım: Hesabınızı korumak için tek cihaz sınırı getirildi ve oturum bilgileriniz Windows tarafından şifrelenmeye başlandı. İnternetiniz kesilse bile 3 gün boyunca oturumunuz açık kalır; şifrenizi unutursanız kurtarma anahtarıyla sıfırlayabilirsiniz. (Güncel KVKK ve kullanım koşulları eklendi.)",
     "Otomatik Sürücü Onarımı: Windows tarafından devre dışı bırakılan ağ sürücüleri, korumayı başlattığınızda otomatik olarak onarılır.",
-    "Daha İsabetli Profil Testi: DNS çakışmaları çözüldü; artık "Akıllı Profil Testi" internet bağlantınıza en uygun ayarı çok daha doğru seçiyor.",
+    "Daha İsabetli Profil Testi: DNS çakışmaları çözüldü; artık Akıllı Profil Testi internet bağlantınıza en uygun ayarı çok daha doğru seçiyor.",
     "Altyapı İyileştirmeleri: Sunucu güvenliği artırıldı ve hata raporlama sistemi hızlandırıldı.",
-    "Not: İlk kurulumda Windows SmartScreen uyarısı çıkarsa "Ek bilgi → Yine de çalıştır" diyerek devam edebilirsiniz.",
+    "Not: İlk kurulumda Windows SmartScreen uyarısı çıkarsa Ek bilgi → Yine de çalıştır diyerek devam edebilirsiniz.",
   ]
 }
