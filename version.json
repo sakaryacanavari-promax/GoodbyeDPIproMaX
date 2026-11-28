@@ -2,15 +2,18 @@
   "version": "0.6.0",
   "min_supported_version": "0.6.0",
   "mandatory": true,
-  "title": "GoodbyeDPI Pro MAX - v0.6.0 Güncellemesi",
+  "title": "GoodbyeDPI Pro MAX - Bu sürümde kurulumu tek tıkla yapılacak kadar basitleştirdik, ağır internet kısıtlamalarına karşı bağlantıyı güçlendirdik.",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
   "sha256": "F0D3B8D48A36F635BA24B59DC57191C66DD9F10CA48E5361FC68E6B01B456351",
   "setup_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI_ProMAX_Setup.exe",
   "setup_sha256": "136A7086F7EE172C9F0EC97225796E4E23A3A9159BA6D5648A66FAEAD8A891E8",
   "changelog": [
-    "Ağır İSS DPI Sansürü Güçlendirmesi: Rust motoruna (promax_core.dll) 2-bayt TLS başlık + SNI ortası 3'lü parçalama, CGNAT dostu --wrong-seq TTL koruması ve tüm modlar başarısız olursa harici goodbyedpi.exe acil yedeği eklendi.",
-    "Gerçekçi Profil & DNS Tarama: Port 53 DNS ölçümlerinin koruma açıkken etkin DNS'e yönlendirilip klonlanmasını önleyen geçici doğrudan yoklama baypası ve Akıllı Profil Testi (Test 1/9) erken çıkış düzeltmesi yapıldı.",
-    "Antivirüs Yanlış Pozitif Temizliği: Açılışta ve onarımda gizli PowerShell/dışlama/sertifika enjeksiyonu kaldırılarak Windows Güvenliği ile tam uyum sağlandı.",
-    "WinDivert kilitli servis onarımı ve kaynak temizliği iyileştirildi."
+    "Tek Tıkla Kolay Kurulum: Artık ayrı klasörler veya sürücü dosyalarıyla uğraşmanıza gerek yok. Tüm bileşenleri tek bir kurulum dosyasında (GoodbyeDPI_ProMAX_Setup.exe) topladık. Eski sürümü kullanıyorsanız ayarlarınız korunarak otomatik geçiş yapılır.",
+    "Daha Güçlü Bağlantı Motoru: Ağır kısıtlama uygulayan internet sağlayıcıları ve paylaşımlı IP (CGNAT) kullanan ağlar için yeni bağlantı yöntemleri ekledik. Standart modların işe yaramadığı durumlarda sistem otomatik olarak yedek motoru devreye alır.",
+    "Hesap Güvenliği ve Çevrimdışı Kullanım: Hesabınızı korumak için tek cihaz sınırı getirildi ve oturum bilgileriniz Windows tarafından şifrelenmeye başlandı. İnternetiniz kesilse bile 3 gün boyunca oturumunuz açık kalır; şifrenizi unutursanız kurtarma anahtarıyla sıfırlayabilirsiniz. (Güncel KVKK ve kullanım koşulları eklendi.)",
+    "Otomatik Sürücü Onarımı: Windows tarafından devre dışı bırakılan ağ sürücüleri, korumayı başlattığınızda otomatik olarak onarılır.",
+    "Daha İsabetli Profil Testi: DNS çakışmaları çözüldü; artık "Akıllı Profil Testi" internet bağlantınıza en uygun ayarı çok daha doğru seçiyor.",
+    "Altyapı İyileştirmeleri: Sunucu güvenliği artırıldı ve hata raporlama sistemi hızlandırıldı.",
+    "Not: İlk kurulumda Windows SmartScreen uyarısı çıkarsa "Ek bilgi → Yine de çalıştır" diyerek devam edebilirsiniz.",
   ]
 }
