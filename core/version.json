@@ -1,15 +1,16 @@
 {
-  "version": "0.5.4",
-  "min_supported_version": "0.5.4",
-  "mandatory": false,
-  "title": "GoodbyeDPI Pro MAX - Çeşitli iyileştirmeler ve hata gidermeleri",
+  "version": "0.6.0",
+  "min_supported_version": "0.6.0",
+  "mandatory": true,
+  "title": "GoodbyeDPI Pro MAX - v0.6.0 Güncellemesi",
   "download_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI-ProMAX.zip",
-  "sha256": "E34EBB465CC94B3CC3D2B9E5C16EFE3A77776B11EA601612C122B4344CEAF550",
+  "sha256": "F0D3B8D48A36F635BA24B59DC57191C66DD9F10CA48E5361FC68E6B01B456351",
+  "setup_url": "https://raw.githubusercontent.com/sakaryacanavari-promax/GoodbyeDPIproMaX/main/GoodbyeDPI_ProMAX_Setup.exe",
+  "setup_sha256": "136A7086F7EE172C9F0EC97225796E4E23A3A9159BA6D5648A66FAEAD8A891E8",
   "changelog": [
-    "Programın arka planda otomatik izin ve sertifika ekleme işlemleri kaldırıldı; bu nedenle çıkan hatalı virüs uyarıları artık görünmüyor.",
-    "Tarayıcıdan erişilebildiği halde Discord masaüstü uygulamasının açılış ekranında takılı kalması düzeltildi. Masaüstü uygulamaları da artık tarayıcılar gibi sorunsuz bağlanıyor.",
-    "Ağır internet engellemeleri için Mod 5 eklendi. Yerleşik modların (Mod 1–5) tamamı yetersiz kalırsa, uygulama otomatik olarak yedek GoodbyeDPI motorunu devreye sokarak bağlantıyı kurtarıyor.",
-    "Program yeniden başlatıldığında veya mod değiştirildiğinde ağ sürücüsünün (WinDivert) arka planda takılı kalma sorunu giderildi.",
-    "Not: Uygulama ticari sertifikayla imzalı olmadığı için ilk açılışta Windows Tanınmayan yayıncı uyarısı verebilir. Ek bilgi → Yine de çalıştır diyerek veya Windows Güvenliği'nden klasöre izin vererek sorunsuz kullanabilirsiniz."
+    "Ağır İSS DPI Sansürü Güçlendirmesi: Rust motoruna (promax_core.dll) 2-bayt TLS başlık + SNI ortası 3'lü parçalama, CGNAT dostu --wrong-seq TTL koruması ve tüm modlar başarısız olursa harici goodbyedpi.exe acil yedeği eklendi.",
+    "Gerçekçi Profil & DNS Tarama: Port 53 DNS ölçümlerinin koruma açıkken etkin DNS'e yönlendirilip klonlanmasını önleyen geçici doğrudan yoklama baypası ve Akıllı Profil Testi (Test 1/9) erken çıkış düzeltmesi yapıldı.",
+    "Antivirüs Yanlış Pozitif Temizliği: Açılışta ve onarımda gizli PowerShell/dışlama/sertifika enjeksiyonu kaldırılarak Windows Güvenliği ile tam uyum sağlandı.",
+    "WinDivert kilitli servis onarımı ve kaynak temizliği iyileştirildi."
   ]
 }
